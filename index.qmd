@@ -299,7 +299,7 @@ In practice, there is no generator, it's the reason why we use an estimation. We
 
 For example, we have computed the entropy around for four sides of cells [800m, 1600m, 3200m, 6400m][@cr-map20]{pan-to="0%,0%" scale-by="1"}
 
-The fractal dimension is the slope of the lesser squares regression line. It's an estimation. In your case, Paris is not strictly fractal, because the points are not aligned.  Nevertheless, the fractal dimension is always relevant and can be interpreted as the average marginal information across scales. [@cr-map21]{pan-to="0%,0%" scale-by="1"}
+The fractal dimension is the slope of the lesser squares regression line. It's an estimation. In your case, Paris is strictly fractal, because the points are aligned.  Nevertheless, the fractal dimension is always relevant and can be interpreted as the average marginal information across scales. [@cr-map21]{pan-to="0%,0%" scale-by="1"}
 
 
 We have divided France in 25.6km side units and perform fractal analyis for each unit. The map displays the local fractal dimension of the population.    [@cr-map22]{pan-to="0%,0%" scale-by="1"}
