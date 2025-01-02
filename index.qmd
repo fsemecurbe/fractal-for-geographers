@@ -307,7 +307,7 @@ We have divided France in 25.6km side units and perform fractal analyis for each
 
 We measure the dispersed concentration of the population that density can reveal. So it is a fantastic tool for the regional planning to adapt the network to the population.   [@cr-map22]{pan-to="0%,0%" scale-by="1"}
 
-
+Fractal geography transforms the Modifiable Areal Unit Problem into a tool for describing the organisation of human organisations.[@cr-map22]{pan-to="0%,0%" scale-by="1"}
 
 
 :::{#cr-map20}
