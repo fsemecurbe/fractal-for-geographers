@@ -14,23 +14,12 @@ img {
   margin: auto;          /* Centers the image horizontally (optional) */
 }
 
-
-
-
-
 body {
   font-family: sans-serif;
   background-color: $color5;
   color: #FFFFFF;
 }
 
-
-
-
-
-
-
-/* Title specific styling */
 .custom-title {
   color: $color6;
   text-align: center;
@@ -41,19 +30,14 @@ body {
   color: $color6 !important;
 }
 
-/* Override any potential conflicting styles */
 div.custom-title {
-  color: $color3 !important;
+  color: $color6 !important;
 }
 
-
-/* General heading styles */
 h2 {
   color: $color3 !important;
   font-weight: bold;
 }
-
-
 
 /* Highlight panel */
 .highlight-panel {
