@@ -1,0 +1,63 @@
+/*-- scss:defaults --*/
+$color1: #7393B3;
+$color2: #ffcc00;
+$color3: #A9A9A9;
+$color4: #ffffff;
+$color5: #FFFDD0;
+$color6: #000000;
+
+img {
+  max-width: 100%;       /* Ensures the image doesn't exceed the screen width */
+  max-height: 100vh;     /* Ensures the image doesn't exceed the screen height */
+  object-fit: contain;   /* Maintains the aspect ratio of the image */
+  display: block;        /* Removes unwanted space below the image (optional) */
+  margin: auto;          /* Centers the image horizontally (optional) */
+}
+
+
+
+
+
+body {
+  font-family: sans-serif;
+  background-color: $color5;
+  color: #FFFFFF;
+}
+
+
+
+
+
+
+
+/* Title specific styling */
+.custom-title {
+  color: $color6;
+  text-align: center;
+  margin: 20px 0;
+  font-size: 3.5rem;
+  font-weight: bold;
+  text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.7);
+  color: $color6 !important;
+}
+
+/* Override any potential conflicting styles */
+div.custom-title {
+  color: $color3 !important;
+}
+
+
+/* General heading styles */
+h2 {
+  color: $color3 !important;
+  font-weight: bold;
+}
+
+
+
+/* Highlight panel */
+.highlight-panel {
+  background-color: $color2;
+  border-left: 5px solid $color3;
+  padding: 20px;
+}
