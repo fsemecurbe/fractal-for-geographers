@@ -4,7 +4,7 @@ This dataviz is based on my PhD in Quantitative Geography. I try to explain why 
 
 To build the Viz :
 ```
-https://github.com/fsemecurbe/fractal-for_geographers.git
+git clone https://github.com/fsemecurbe/fractal-for_geographers.git
 cd fractal-for_geographers
 quarto add qmd-lab/closeread
 ```
