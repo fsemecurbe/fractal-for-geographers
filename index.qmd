@@ -35,9 +35,7 @@ Before we discuss the usefulness of fractals for geographers, it might be releva
 
 
 ::::{.cr-section layout="overlay-center"}
-
 {{< spacer 10svh >}}
-
 This the picture of a simple fractal. This could well be a representation of a density map of population. The gradient colour scheme is showing the intensity of the density : <span style="color:#a50026;">higher values</span>  and <span style="color:#cce88b;">lower values</span> @cr-map
 
 :::{#cr-map}
@@ -63,9 +61,6 @@ This the picture of a simple fractal. This could well be a representation of a d
 :::{#cr-map6}
 ![](images/multifractal5.svg)
 :::
-
-
-
 
 If we look closely at one part, we see the same pattern.  [@cr-map]{pan-to="0%,10%" scale-by="3"}
 
@@ -114,7 +109,7 @@ In this article, we focus on a specific dimension called the information dimensi
 
 Imagine a situation where Santa Claus is located in cell from the generator. It's probabity to be in a certain cell i is P<sub>i</sub>. @cr-map7
 
-Keep in mind that P<sub>i</sub>=1/2 and The other probabilities are equally distributed. @cr-map7
+Keep in mind that P<sub>5</sub>=1/2 and The other probabilities are equally distributed. @cr-map7
 
 How many questions do we ask to find him ? @cr-map7
 
@@ -130,7 +125,7 @@ If this is true, we have to divide the first group again into two groups ([1,2],
 
 If this is true, we have to ask if Santa Claus 🎅 is in cell 3.  @cr-map11
 
-Ok, the Santa Claus 🎅 is in cell 3.  @cr-map11b
+Okay, the Santa Claus 🎅 is in cell 3.  @cr-map11b
 
 
 In average, we have to wonder 1/2 * 1 + 1/2 * 3 = 2 questions to find Santa Claus 🎅. @cr-map11b
@@ -297,7 +292,7 @@ chart = Plot.plot({
 
 In practice, there is no generator, it's the reason why we use an estimation. We perform the entropy for different sides of the cells.[@cr-map20]{pan-to="0%,0%" scale-by="1"}
 
-For example, we have computed the entropy around for four sides of cells [800m, 1600m, 3200m, 6400m][@cr-map20]{pan-to="0%,0%" scale-by="1"}
+For example, we have computed the entropy around Paris for four sides of cells [800m, 1600m, 3200m, 6400m][@cr-map20]{pan-to="0%,0%" scale-by="1"}
 
 The fractal dimension is the slope of the lesser squares regression line. It's an estimation. In your case, Paris is strictly fractal, because the points are aligned.  Nevertheless, the fractal dimension is always relevant and can be interpreted as the average marginal information across scales. [@cr-map21]{pan-to="0%,0%" scale-by="1"}
 
@@ -305,10 +300,12 @@ The fractal dimension is the slope of the lesser squares regression line. It's a
 We have divided France in 25.6km side units and perform fractal analyis for each unit. The map displays the local fractal dimension of the population.    [@cr-map22]{pan-to="0%,0%" scale-by="1"}
 
 
-We measure the dispersed concentration of the population that density can reveal. So it is a fantastic tool for the regional planning to adapt the network to the population.   [@cr-map22]{pan-to="0%,0%" scale-by="1"}
+We measure the dispersed concentration of the population that density can reveal. So it is a fantastic tool for the regional planning to adapt the network to the population.    [@cr-map22]{pan-to="0%,0%" scale-by="1"}
+
+
+Regions with high fractal dimensions exhibit spatially dispersed populations, in contrast to those with low fractal dimensions, where populations are more concentrated. [@cr-map22]{pan-to="0%,0%" scale-by="1"}
 
 Fractal geography transforms the Modifiable Areal Unit Problem into a tool for describing the organisation of human organisations.[@cr-map22]{pan-to="0%,0%" scale-by="1"}
-
 
 :::{#cr-map20}
 ![](images/sc.svg)
