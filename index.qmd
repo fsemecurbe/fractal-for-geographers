@@ -13,7 +13,7 @@ format:
       narrative-overlay-max-width: "70%"  
       narrative-outer-margin: "10px"  
       narrative-font-size: "1.2rem"  
-    #embed-resources: true
+    embed-resources: true
     remove-header-space: true
     code-tools: false
     cr-section:
@@ -294,7 +294,7 @@ In practice, there is no generator, it's the reason why we use an estimation. We
 
 For example, we have computed the entropy around Paris for four sides of cells [800m, 1600m, 3200m, 6400m][@cr-map20]{pan-to="0%,0%" scale-by="1"}
 
-The fractal dimension is the slope of the lesser squares regression line. It's an estimation. In your case, Paris is strictly fractal, because the points are aligned.  Nevertheless, the fractal dimension is always relevant and can be interpreted as the average marginal information across scales. [@cr-map21]{pan-to="0%,0%" scale-by="1"}
+The fractal dimension is the opposite of slope of the lesser squares regression line. It's an estimation. In your case, Paris is strictly fractal, because the points are aligned, its dimension is 1.8.  Nevertheless, the fractal dimension is always relevant and can be interpreted as the average marginal information across scales. [@cr-map21]{pan-to="0%,0%" scale-by="1"}
 
 
 We have divided France in 25.6km side units and perform fractal analyis for each unit. The map displays the local fractal dimension of the population.    [@cr-map22]{pan-to="0%,0%" scale-by="1"}
@@ -349,8 +349,8 @@ Fractal geography transforms the Modifiable Areal Unit Problem into a tool for d
 
 ```{ojs}
 //| output: false
-trans_x = function(x) {return (x- 3234242)/1200000*width};
-trans_y = function(y) {return (-y+2016044+1200000)/1200000*width};
+trans_x = function(x) {return (x- 3234242)/1200000*widthheight};
+trans_y = function(y) {return (-y+2016044+1200000)/1200000*widthheight};
 chart.setAttribute("viewBox", toto);
 ```
 
@@ -364,7 +364,7 @@ dep = FileAttachment("images/dep.geojson").json();
 
 ```{ojs}
 //| output: false
-projection =     d3.geoTransform({point: function(x, y) {this.stream.point((x- 3234242)/1200000*width,(-y+2016044+1200000)/1200000*width);  }
+projection =     d3.geoTransform({point: function(x, y) {this.stream.point((x- 3234242)/1200000*widthheight,(-y+2016044+1200000)/1200000*widthheight);  }
 })
 ```
 
