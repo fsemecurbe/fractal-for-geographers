@@ -45,3 +45,13 @@ h2 {
   border-left: 5px solid $color3;
   padding: 20px;
 }
+
+
+.overlay-center {
+  .narrative-col {
+    opacity: 0.85;
+    justify-self: center;
+  }
+}
+
+
