@@ -200,19 +200,29 @@ In geography, the role of scale is a major concern. It has been theorized under 
 
 ::::{.cr-section layout="overlay-center"}
 
-In this [example from Wikipedia](https://en.wikipedia.org/wiki/Modifiable_areal_unit_problem), we see a distribution of people and the distortion of rate calculations. @cr-map12
+In this we see a distribution of people and the distortion of rate calculations. The red individuals are sick, while the blue individuals are cured. @cr-map12
 
 
-In the Region Set A, there is two units, one with 0% of illness rate and the other with 50 %. [@cr-map12]{pan-to="50%,-50%" scale-by="2"}
+When grouped vertically, we create two heterogeneous territories: one with 100% sick individuals and the other with 0%. [@cr-map12a]
 
-In the Region Set B, there is still two units,  one unit have 0% of illness rate but the other with 100 %. [@cr-map12]{pan-to="-50%,-50%" scale-by="2"}
+In contrast, grouping horizontally results in two mutually homogenous territories, each with 50% sick individuals. [@cr-map12b]
 
-It's not a theoretical trap. Unfortunately, the MAUP could influence how policy makers coordinate their actions at different scales, from local to regional to national. It is one of the reasons why we can't manage climate change. [@cr-map12]{pan-to="0%,0%" scale-by="1"}
+It's not a theoretical trap. Unfortunately, the MAUP could influence how policy makers coordinate their actions at different scales, from local to regional to national. It is one of the reasons why we can't manage climate change. [@cr-map12b]
 
 
 :::{#cr-map12}
-![](images/Maup_rate_numbers.png)
+![](images/maup1.svg)
 :::
+
+:::{#cr-map12a}
+![](images/maup2.svg)
+:::
+
+:::{#cr-map12b}
+![](images/maup3.svg)
+:::
+
+
 
 ::::
 
