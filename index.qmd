@@ -200,7 +200,7 @@ In geography, the role of scale is a major concern. It has been theorized under 
 
 ::::{.cr-section layout="overlay-center"}
 
-In this we see a distribution of people and the distortion of rate calculations. The red individuals are sick, while the blue individuals are cured. @cr-map12
+We see a distribution of people and the distortion of rate calculations. The red individuals are sick, while the blue individuals are cured. @cr-map12
 
 
 When grouped vertically, we create two heterogeneous territories: one with 100% sick individuals and the other with 0%. [@cr-map12a]
